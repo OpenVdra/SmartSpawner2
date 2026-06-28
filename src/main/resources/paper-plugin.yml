@@ -1,0 +1,13 @@
+name: SmartSpawner
+version: '${version}'
+main: com.smartspawner.SmartSpawner
+bootstrapper: com.smartspawner.command.SmartSpawnerBootstrap
+api-version: '1.21'
+description: SmartSpawner plugin
+author: Nighter
+folia-supported: true
+
+permissions:
+  smartspawner.command.give:
+    description: Use /smartspawner give to hand out spawners
+    default: op
